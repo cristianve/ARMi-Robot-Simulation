@@ -37,10 +37,20 @@ Ventajas de diseñar APIs antes de realizar una implementación del servicio:
 * Facilitar el uso por parte del consumidor  evitando heterogeneidad  por ejemplo de respuesta de error, códigos HTTP, etc.
 * Ayudar a los proyectos en la toma de decisión de diseño de los recursos para conseguir APIs agnósticas del proyecto, que se puedan reutilizar y sean funcionales.
 
-## 1.1 Nomenclatura ✏️🔤
+## 1.1 MainCamera ✏️🔤
 
 
 ![IMAGE MAIN 1](/imatges/MainCamera.PNG)
+
+## 1.1 SecondaryCamera ✏️🔤
+
+![IMAGE MAIN 3](/imatges/SecondaryCamera.PNG)
+
+## 4. Netflix Ejemplo 📺
+
+### Disseño de una API funcional basandonos en el ejemplo de la plataforma Netflix:
+
+
 
 * Anatomía de una URL
 
@@ -131,10 +141,3 @@ Ventajas de diseñar APIs antes de realizar una implementación del servicio:
 * **Técnicas de ordenación:** Explicación de las diferentes tecnicas , filtrado y buenas prácticas.
 
 ## 3. Metodología de diseño de recursos ✍️🗺️
-
-![IMAGE MAIN 3](/imatges/SecondaryCamera.PNG)
-
-## 4. Netflix Ejemplo 📺
-
-### Disseño de una API funcional basandonos en el ejemplo de la plataforma Netflix:
-
