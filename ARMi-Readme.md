@@ -40,7 +40,7 @@ Ventajas de diseñar APIs antes de realizar una implementación del servicio:
 ## 1.1 Nomenclatura ✏️🔤
 
 
-![IMAGE MAIN 1](/images/MainCamera.PNG)
+![IMAGE MAIN 1](/imatges/MainCamera.PNG)
 
 * Anatomía de una URL
 
@@ -132,7 +132,7 @@ Ventajas de diseñar APIs antes de realizar una implementación del servicio:
 
 ## 3. Metodología de diseño de recursos ✍️🗺️
 
-![IMAGE MAIN 3](/images/SecondaryCamera.PNG)
+![IMAGE MAIN 3](/imatges/SecondaryCamera.PNG)
 
 ## 4. Netflix Ejemplo 📺
 
