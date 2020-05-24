@@ -1,4 +1,5 @@
-# ARMi Robot - Unity Simulation 🎓🏭
+# Pensando Apimente – Builids APIs 🎓🏭
+# D4I Team– everis
 
 ## Contenido 📇
 
@@ -39,7 +40,7 @@ Ventajas de diseñar APIs antes de realizar una implementación del servicio:
 ## 1.1 Nomenclatura ✏️🔤
 
 
-![IMAGE MAIN 1](/images/foto1.PNG)
+![IMAGE MAIN 1](/imatges/MainCamera.PNG)
 
 * Anatomía de una URL
 
@@ -131,10 +132,9 @@ Ventajas de diseñar APIs antes de realizar una implementación del servicio:
 
 ## 3. Metodología de diseño de recursos ✍️🗺️
 
-![IMAGE MAIN 3](/images/foto3.PNG)
+![IMAGE MAIN 3](/imatges/SecondaryCamera.PNG)
 
 ## 4. Netflix Ejemplo 📺
 
 ### Disseño de una API funcional basandonos en el ejemplo de la plataforma Netflix:
 
-![IMAGE MAIN 3](/images/foto4.PNG)
