@@ -1,16 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Robot : MonoBehaviour
 {
     public Transform obj;
+
+  
+
+  
     public bool proximo = false;
     public bool Detproximo = false;
     public float distance;
     public float forwardtargetDistance;
     public float backtargetDistance;
-    public float mindistance = 4.0f;
+    [Range(41.0f, 60.0f)]
+    public float mindistance = 41.0f;
+    [Range(10.0f, 20.0f)]
     public float moveSpeed;
     public GameObject robot;
     public GameObject Objeto1;
@@ -21,6 +28,8 @@ public class Robot : MonoBehaviour
     public float frontSensorPosition = 0.5f;
     public float frontsideSensorPosition = 0.2f;
     public float frontSensorAngle = 30;
+
+   
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +45,7 @@ public class Robot : MonoBehaviour
         //movimiento horizontal/vertical
         //transform.Translate(moveSpeed*Input.GetAxis("Horizontal") * Time.deltaTime, 0f, moveSpeed * Input.GetAxis("Vertical") * Time.deltaTime);
 
+      
         moveVelocity = Vector3.zero;
 
         Movimiento();
@@ -86,6 +96,7 @@ public class Robot : MonoBehaviour
             backtargetDistance = TheBackHit.distance;
         }
 
+
         if ( forwardtargetDistance < mindistance)
         {
             Debug.Log ("Alerta objeto próximo");
@@ -105,6 +116,7 @@ public class Robot : MonoBehaviour
         //    Debug.Log ("Alerta objeto próximo");
         //    proximo = true;
         //} else proximo = false;
+         
     }
 
     private void Movimiento()
