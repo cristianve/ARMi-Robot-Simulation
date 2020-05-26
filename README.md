@@ -42,8 +42,12 @@ Podemos controlar el robot de diferentes maneras:
 
 # 2.1.1 Unity Teclas:
 
-W  -> Front
-A,S,D -> Left/Back/Right
+W  -> Front  
+A,S,D -> Left/Back/Right  
+Z , X -> Codo
+Arrow Up / Arrow Down -> Cadera  
+L / R -> Pinzas  
+
 
 # 2.1.1 API Calls (Directional Button):
 
