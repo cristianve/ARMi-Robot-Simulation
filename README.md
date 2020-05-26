@@ -1,48 +1,76 @@
-# Pensando Apimente – Builids APIs 🎓🏭
-# D4I Team– everis
+# ARMi Robot Simulator 🎓🏭
+# Universidad Autonoma de Barcelona – Robotics 🤖
 
 ## Contenido 📇
 
-* 1. ¿Por donde comienzo?
-  * 1.1. Nomenclatura: URLs, E/S e ISOs
-  * 1.2. Tipología de recursos
-* 2. ¿Cómo interaccionar con métodos HTTP?
-  * 2.1. Uso de verbos HTTP
-  * 2.2. ¿Cómo responder de manera correcta?
-  * 2.3. ¿Cómo versiono?
-  * 2.4. ¿Cómo pagino?
-  * 2.5. ¿Cómo filtro los resultados?
-  * 2.6. ¿Cómo ordeno los resultados?
-* 3. Metodología de diseño de recursos
-* 4. Ejemplo
+* 1. Modulo Ultrasonido (Raycast)
+  * 1.1. Forward Distance
+  * 1.2. Backward Distance
+* 2. Módulo Motores Ruedas
+  * 2.1. Controles de movimiento del robot
+* 3. Módulo brazo
+* 4. Demo
 
-## 1. ¿Por donde comienzo? 🤔🎬
+## Setup/Install Project
 
-# Api product 📦
-
-Los API son productos que se ofrecen en un mercado (API Portal) para cubrir una necesidad de un grupo de clientes (Consumidores de APIs) 
-Esto no se interpreta para satisfacer las necesidades de una sola persona o un caso único, sino pensar en la funcionalidad genérica para un grupo que consume aplicaciones y soluciones 
-
-# Api First 1️⃣
-
-Ventajas de diseñar APIs antes de realizar una implementación del servicio:
-* Mejor entendimiento el negocio
-* Menos iteraciones y cambios posteriores
-* Cambios en diseños menos complejos, fáciles y rápidos
+# 1️⃣ Install Unity version 2019.3.13f1
+# 2️⃣ Clone repository
+# 3️⃣ Add project and select ARMi-Robot-Simulation
 
 
-# Definir guía de diseño 📖
 
-* Conseguir que las APIs tengan la misma morfología independientemente del equipo/proyecto que las diseñe e implemente.
-* Facilitar el uso por parte del consumidor  evitando heterogeneidad  por ejemplo de respuesta de error, códigos HTTP, etc.
-* Ayudar a los proyectos en la toma de decisión de diseño de los recursos para conseguir APIs agnósticas del proyecto, que se puedan reutilizar y sean funcionales.
+## 1. Modulo Ultrasonido (Raycast) 📡📡
 
-## 1.1 MainCamera ✏️🔤
+Este modulo contiene la simulacion de un sensor de ultrasonidos que emite una señal en linea recta (forward and backward)  y detecta la distancia con el objecto mas cercano.
+
+# 1.1 Forward Distance 🔜
+
+Muestra la distancia en cm al objecto mas cercano posicionado **delante** de las palas del robot.
 
 
-![IMAGE MAIN 1](/imatges/MainCamera.PNG)
+# 1.2 Backward Distance 🔙
+Muestra la distancia en cm al objecto mas cercano posicionado **detras** del robot.
 
-## 1.1 SecondaryCamera ✏️🔤
+
+## 2. Módulo Motores Ruedas 🚗
+
+Wheel collider de Unity: nos permite poder controlar no solo la rotación o movimiento de un objeto si no el conjunto de objetos que forma el robot.
+
+# 2.1 Controles de movimiento del robot 🎮
+
+Podemos controlar el robot de diferentes maneras:
+
+# 2.1.1 Unity Teclas:
+
+    W,  -> Front
+  A,S,D -> Left/Back/Right
+
+# 2.1.1 API Calls (Directional Button):
+
+ Github URL: https://github.com/cristianve/Armi-Robot-Object-Recognition
+
+![IMAGE MAIN 1](/imatges/ARMi-API.PNG)
+
+
+## 3. Módulo brazo 🦾📦
+
+
+![IMAGE MAIN 1](/imatges/Pallete.PNG) 
+
+## 4. Demo ▶️
+
+
+## 5. Images ▶📷
+## MainCamera 
+
+
+![IMAGE MAIN 2](/imatges/MainCamera.PNG)
+
+## SecondaryCamera 
 
 ![IMAGE MAIN 3](/imatges/SecondaryCamera.PNG)
+
+## Scene 
+
+![IMAGE MAIN 4](/imatges/Scene.PNG)
 
