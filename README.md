@@ -13,9 +13,9 @@
 
 ## Setup/Install Project
 
-# 1️⃣ Install Unity version 2019.3.13f1
-# 2️⃣ Clone repository
-# 3️⃣ Add project and select ARMi-Robot-Simulation
+## 1️⃣ Install Unity version 2019.3.13f1
+## 2️⃣ Clone repository
+## 3️⃣ Add project and select ARMi-Robot-Simulation
 
 
 
