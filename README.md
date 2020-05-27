@@ -64,24 +64,29 @@ L / R -> Pinzas
 # 4. Demo ▶️
 
 https://www.youtube.com/watch?v=6H_Ly5c1VQ0
+https://www.youtube.com/watch?v=zRrGhOfO6J8
 
 # 5. Images ▶📷
 
-## Distance UI
+## Distance UI (Raycast) 📡
 
 
 ![IMAGE MAIN 2](/imatges/UI.PNG)
 
-## MainCamera 
+## MainCamera 📷
 
 
 ![IMAGE MAIN 2](/imatges/MainCamera.PNG)
 
-## SecondaryCamera 
+## SecondaryCamera 📷
 
 ![IMAGE MAIN 3](/imatges/SecondaryCamera.PNG)
 
 ## Scene 
 
 ![IMAGE MAIN 4](/imatges/Scene.PNG)
+
+## DISEÑO 3D STL: 
+
+![IMAGE MAIN 4](/imatges/STL.PNG)
 
