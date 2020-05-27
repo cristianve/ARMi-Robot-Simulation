@@ -15,7 +15,7 @@ public class Robot : MonoBehaviour
     public float distance;
     public float forwardtargetDistance;
     public float backtargetDistance;
-    [Range(41.0f, 60.0f)]
+    [Range(-20.0f, 250.0f)]
     public float mindistance = 41.0f;
     [Range(10.0f, 20.0f)]
     public float moveSpeed;
